@@ -65,3 +65,4 @@ Runs on port 3000 by default — if running alongside TapCard locally, start thi
 1. Push this folder to its own GitHub repo (or a subfolder of a monorepo — if monorepo, set Vercel's "Root Directory" to `jeron-brands/`).
 2. Import into Vercel, add the 4 environment variables above (set `NEXT_PUBLIC_SITE_URL` to your real domain, and `NEXT_PUBLIC_TAPCARD_URL` to your deployed TapCard URL).
 3. Deploy. Point your `jeronbrands.com` (or chosen domain) at this Vercel project.
+(this doesn't affect your code at all; it just tells GitHub a change was made).
